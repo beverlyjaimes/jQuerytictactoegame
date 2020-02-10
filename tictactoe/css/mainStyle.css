@@ -13,7 +13,7 @@ table{
     background-color: darkgrey;
 }
 
-table tr td {
+.square {
     width: 90px;
     height: 90px;
     border: 10px solid black;
@@ -21,7 +21,7 @@ table tr td {
     text-align: center;
 }
 
-table tr td:hover {
+.square:hover {
     background-color: lightgrey;
     cursor: pointer;
 }
