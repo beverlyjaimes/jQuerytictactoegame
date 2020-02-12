@@ -25,4 +25,7 @@ function winner(){
     space8 = $('.row:nth-child(3) .square:nth-child(2)').text();
     space9 = $('.row:nth-child(3) .square:nth-child(3)').text();
 
+    if ((space1 == space2) && (space2 == space3)){
+        return space3;
+    }
 }
