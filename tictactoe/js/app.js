@@ -16,13 +16,13 @@ $('.square').click(function () {
 
 function winner(){
     space1 = $('.row:nth-child(1) .square:nth-child(1)').text();
-    space2 = $('.row:nth-child(1) .square:nth-child(1)').text();
-    space3 = $('.row:nth-child(1) .square:nth-child(1)').text();
-    space4 = $('.row:nth-child(1) .square:nth-child(1)').text();
-    space5 = $('.row:nth-child(1) .square:nth-child(1)').text();
-    space6 = $('.row:nth-child(1) .square:nth-child(1)').text();
-    space7 = $('.row:nth-child(1) .square:nth-child(1)').text();
-    space8 = $('.row:nth-child(1) .square:nth-child(1)').text();
-    space9 = $('.row:nth-child(1) .square:nth-child(1)').text();
+    space2 = $('.row:nth-child(1) .square:nth-child(2)').text();
+    space3 = $('.row:nth-child(1) .square:nth-child(3)').text();
+    space4 = $('.row:nth-child(2) .square:nth-child(1)').text();
+    space5 = $('.row:nth-child(2) .square:nth-child(2)').text();
+    space6 = $('.row:nth-child(2) .square:nth-child(3)').text();
+    space7 = $('.row:nth-child(3) .square:nth-child(1)').text();
+    space8 = $('.row:nth-child(3) .square:nth-child(2)').text();
+    space9 = $('.row:nth-child(3) .square:nth-child(3)').text();
 
 }
