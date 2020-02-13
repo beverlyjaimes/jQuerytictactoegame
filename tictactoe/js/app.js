@@ -27,5 +27,10 @@ function winner(){
 
     if ((space1 == space2) && (space2 == space3)){
         return space3;
+    } else if ((space4 == space5) && (space5 == space6)){
+        return space6;
+    } else if ((space7 == space8) && (space8 == space9)){
+        return space9;
     }
+//    diagonal win
 }
