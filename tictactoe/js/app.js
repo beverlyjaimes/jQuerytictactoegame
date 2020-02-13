@@ -14,13 +14,21 @@ $('.square').click(function () {
             if(getWinner()== "X"){
                 $('body').append('<div class="winner"><span>Winner!</span>X</div>');
                 $('body').append('<button onclick="location.reload()">Play Again!</button>');
+                $('.winner').css('background-color', '#61892f');
+                $('button').css('color', '#61892f');
+            } else {
+                $('body').append('<div class="winner"><span>Winner!</span>O</div>');
+                $('body').append('<button onclick="location.reload()">Play Again!</button>');
+                $('.winner').css('background-color', '#e85a4f');
+                $('button').css('color', '#e85a4f');
             }
+            play = false;
         }
     }
 
 });
 
-function winner(){
+function getWinner(){
     space1 = $('.row:nth-child(1) .square:nth-child(1)').text();
     space2 = $('.row:nth-child(1) .square:nth-child(2)').text();
     space3 = $('.row:nth-child(1) .square:nth-child(3)').text();
