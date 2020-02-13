@@ -10,6 +10,12 @@ $('.square').click(function () {
             $(this).css('color', '#e85a4f');
         }
         move++;
+        if (getWinner() != -1 && getWinner()!= ""){
+            if(getWinner()== "X"){
+                $('body').append('<div class="winner"><span>Winner!</span>X</div>');
+                $('body').append('<button onclick="location.reload()">Play Again!</button>');
+            }
+        }
     }
 
 });
