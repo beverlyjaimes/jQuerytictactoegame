@@ -38,4 +38,5 @@ function winner(){
     } else if ((space3 == space5) && (space5 == space7)){
         return space7;
     }
+    return -1;
 }
