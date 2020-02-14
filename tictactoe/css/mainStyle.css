@@ -32,5 +32,15 @@ table{
     margin: 10px auto;
     font-size: 60px;
     text-align: center;
+    display: block;
 }
 
+
+button {
+    width: 240px;
+    height: 100px;
+    margin: 10px auto;
+    display: block;
+    border: none;
+    background-color: #272727;
+}
